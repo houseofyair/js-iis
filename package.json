@@ -1,0 +1,21 @@
+{
+    "name": "js-iis",
+    "version": "1.0.0",
+    "description": "a simple way to generate iis entries via command line",
+    "main": "index.js",
+    "author": "Philip Brown <houseofyair@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "liftoff": "^2.2.0",
+        "lodash": "^4.6.1",
+        "minimist": "^1.2.0"
+    },
+    "preferGlobal": true,
+    "bin": {
+        "iis": "bin/iis.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/houseofyair/js-iis.git"
+    }
+}
